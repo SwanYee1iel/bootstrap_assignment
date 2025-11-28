@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Assignment 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          crossorigin="anonymous">
+</head>
+<body>
+
+<!-- TOP BAR / HEADER -->
+<div class="container-fluid bg-primary text-white">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center py-3">
+            <h2 class="mb-0 text-center">Athiphat Hirunadisuan</h2>
+        </div>
+    </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="container my-4">
+    <div class="row g-3">
+
+        <!-- ABOUT ME CARD -->
+        <!-- full width on small, half width from lg up -->
+        <div class="col-12 col-lg-6">
+            <div class="card h-100">
+                <div class="row g-0">
+                    <!-- Image column -->
+                    <div class="col-md-4 d-flex justify-content-center align-items-center p-3">
+                        <!-- use the same image path from your CSS exercise -->
+                        <img src="public/images/selfie01.jpg"
+                             class="img-fluid rounded"
+                             alt="Profile photo">
+                    </div>
+                    <!-- Text column -->
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">About Me</h5>
+                            <p class="card-text mb-0">
+                                A former employee of the Assumption University working as a
+                                system engineer for 27 years, challenging himself in the
+                                private sector.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ACHIEVEMENTS CARD -->
+        <div class="col-12 col-lg-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Achievements</h5>
+                    <ul class="mb-0">
+                        <li>The first one who implement containerization technic for university infrastructure management</li>
+                        <li>Configuring the local Git system from Gitlab opensource</li>
+                        <li>Lead developer for Prompt Post application for THP (Thailand Post)</li>
+                        <li>CTO of Game Square Interactive, one of the first Game Studios established in Thailand</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- FOOTER -->
+<div class="container-fluid bg-primary text-white">
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center align-items-center py-2">
+            <small class="text-center mb-0">
+                Created by ~ME~ ©2025 All rights reserved
+            </small>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</body>
+</html>
